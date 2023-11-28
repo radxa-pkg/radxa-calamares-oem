@@ -1,0 +1,27 @@
+---
+componentName:   radxa
+welcomeStyleCalamares: true
+
+strings:
+    productName:         RadxaOS
+    shortProductName:    RadxaOS
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       RadxaOS 1.0
+    shortVersionedName:  RadxaOS 1.0
+    bootloaderEntryName: Radxa
+    productUrl:          https://www.radxa.com/
+    supportUrl:          https:/forum.radxa.com/
+    releaseNotesUrl:     https://radxa.com/news
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      ""
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2D2D2D"
+   sidebarText:          "#EEEEEE"
+   sidebarTextSelect:    "#4d7079"
