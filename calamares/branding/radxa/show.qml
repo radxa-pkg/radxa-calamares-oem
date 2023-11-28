@@ -55,8 +55,8 @@ Presentation
             anchors.centerIn: parent
         }
         Text {
-            anchors.horizontalCenter: security.horizontalCenter
-            anchors.top: security.bottom
+            anchors.horizontalCenter: test.horizontalCenter
+            anchors.top: test.bottom
             text: "<h3>Some text</h3><br/>"
             wrapMode: Text.WordWrap
             width:650
