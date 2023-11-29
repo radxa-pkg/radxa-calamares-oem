@@ -1,0 +1,7 @@
+/.debhelper
+/debhelper-build-stamp
+/files
+/calamares-settings*/
+/*.debhelper.log
+/*.postrm.debhelper
+/*.substvars

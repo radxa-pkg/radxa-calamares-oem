@@ -1,4 +1,4 @@
-unknown (unknown) unstable; urgency=medium
+calamares-settings-radxa (0.1.0) unstable; urgency=medium
 
   [ RadxaPanda ]
   * add the files
@@ -6,7 +6,7 @@ unknown (unknown) unstable; urgency=medium
 
  -- Panda <panda@radxa.com>  Wed, 29 Nov 2023 08:56:47 +0000
 
-unknown (unknown) unstable; urgency=medium
+calamares-settings-radxa (0.0.2) unstable; urgency=medium
 
   [ RadxaPanda ]
   * add the files
@@ -14,7 +14,7 @@ unknown (unknown) unstable; urgency=medium
 
  -- Panda <panda@radxa.com>  Wed, 29 Nov 2023 08:55:33 +0000
 
-unknown (unknown) unstable; urgency=medium
+calamares-settings-radxa (0.0.1) unstable; urgency=medium
 
   [ Panda ]
   * add the files

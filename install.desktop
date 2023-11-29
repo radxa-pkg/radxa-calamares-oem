@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Version=1.0
+Version=0.1.0
 Name=Setup RadxaOS
 GenericName=RadxaOS Installer
 Exec=pkexec /usr/bin/calamares -d | sudo tee /var/log/calamares.log

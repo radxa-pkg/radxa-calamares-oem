@@ -1,0 +1,20 @@
+Source: calamares-settings-radxa
+Maintainer: "Panda" <panda@radxa.com>
+Section: admin
+Priority: standard
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian
+
+Package: calamares-settings-radxa
+Architecture: all
+Section: admin
+Priority: standard
+Depends: calamares,
+         qml-module-qtquick-controls,
+         python3,
+         pkexec | policykit-1 (<< 122-1),
+         ${misc:Depends},
+Description: Calamares Configuration the Radxa system
+ This package contains the configuration files for Calamares.
