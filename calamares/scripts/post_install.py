@@ -10,7 +10,8 @@ Description=Remove live user
 
 [Service]
 Type=oneshot
-ExecStartPre=userdel -rf radxa 
+ExecStartPre=userdel -rf radxa
+ExecStartPre=userdel -rf rock
 ExecStart=systemctl disable remove-live-user.service
 
 [Install]
