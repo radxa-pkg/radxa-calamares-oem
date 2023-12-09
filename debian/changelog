@@ -1,3 +1,10 @@
+calamares-settings-radxa (0.1.1) unstable; urgency=medium
+
+  [ RadxaPanda ]
+  * Fix Makefile Add plymouth Remove Rock user aswell
+
+ -- Panda <panda@radxa.com>  Sat, 09 Dec 2023 11:08:41 +0000
+
 calamares-settings-radxa (0.1.0) unstable; urgency=medium
 
   [ RadxaPanda ]
