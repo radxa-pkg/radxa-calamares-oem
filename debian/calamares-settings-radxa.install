@@ -1,2 +1,2 @@
-calamares/ /etc/
-install.desktop /usr/share/applications/
+src/etc/ /
+src/usr/ /
