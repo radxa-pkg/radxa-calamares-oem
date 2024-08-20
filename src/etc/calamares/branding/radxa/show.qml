@@ -40,24 +40,14 @@ Presentation
         Image {
             id: background1
             source: "slide1.png"
-            width: 640; height: 480
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
-    }
-
-    Slide {
-        Image {
-            id: test
-            source: "slide1.png"
-            width: 200; height: 200
+            width: 280; height: 280
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
         Text {
             anchors.horizontalCenter: test.horizontalCenter
             anchors.top: test.bottom
-            text: "<h3>Some text</h3><br/>"
+            text: "<h3>Welcome to RadxaOS!</h3><br/>"
             wrapMode: Text.WordWrap
             width:650
             horizontalAlignment: Text.Center
