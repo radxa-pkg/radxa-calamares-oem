@@ -10,8 +10,8 @@ strings:
     versionedName:       RadxaOS 1.0
     shortVersionedName:  RadxaOS 1.0
     bootloaderEntryName: Radxa
-    productUrl:          https://www.radxa.com/
-    supportUrl:          https:/forum.radxa.com/
+    productUrl:          https://radxa.com
+    supportUrl:          https://forum.radxa.com
     releaseNotesUrl:     https://radxa.com/news
 
 images:
