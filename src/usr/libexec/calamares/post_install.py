@@ -37,13 +37,3 @@ with open('/usr/lib/systemd/system/remove-calamares.service', 'w') as f:
     f.write(rm_calamares_service)
 subprocess.run(['systemctl', 'enable', 'remove-live-user.service'])
 subprocess.run(['systemctl', 'enable', 'remove-calamares.service'])
-try:
-    #/etc/sudoers.d/g_wheel_nopasswd
-    #/etc/polkit-1/rules.d/49-nopasswd_global.rules
-    os.remove('/etc/sudoers.d/g_wheel_nopasswd')
-    os.remove('/etc/polkit-1/rules.d/49-nopasswd_global.rules')
-except OSError as e:
-    print(e)
-    pass
-
-
