@@ -1,11 +1,12 @@
 [Desktop Entry]
 Type=Application
+Version=1.0
 Name=Setup RadxaOS
 GenericName=RadxaOS Installer
 Exec=pkexec /usr/bin/calamares -d | sudo tee /var/log/calamares.log
 Comment=Calamares — Installer for Radxa OS
 Keywords=calamares;system;install;debian;installer
-Icon=/etc/calamares/branding/radxa/logo.png
+Icon=/usr/share/calamares/branding/radxa/logo.png
 Terminal=false
 Categories=Qt;System;
 StartupWMClass=calamares
