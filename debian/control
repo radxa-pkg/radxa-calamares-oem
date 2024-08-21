@@ -11,10 +11,11 @@ Package: calamares-settings-radxa
 Architecture: all
 Section: admin
 Priority: standard
-Depends: calamares,
+Depends: breeze,
+         calamares,
          qml-module-qtquick-controls,
          python3,
-         pkexec | policykit-1 (<< 122-1),
+         sudo,
          ${misc:Depends},
 Description: Calamares Configuration the Radxa system
  This package contains the configuration files for Calamares.

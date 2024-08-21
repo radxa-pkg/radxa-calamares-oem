@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 sudo rm -f /var/log/calamares.log
-sudo calamares -d 2>&1 | sudo tee /var/log/calamares.log
+sudo calamares -stlye breeze -d 2>&1 | sudo tee /var/log/calamares.log
