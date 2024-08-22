@@ -39,7 +39,7 @@ Presentation
     Slide {
         Image {
             id: background1
-            source: "slide1.png"
+            source: "logo.svg"
             width: 280; height: 280
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
