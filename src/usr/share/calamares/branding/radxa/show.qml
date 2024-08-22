@@ -29,27 +29,39 @@ Presentation
     }
 
     Timer {
-        id: advanceTimer
+        id: timer
         interval: 20000
         running: presentation.activatedInCalamares
         repeat: true
-        onTriggered: nextSlide()
+        onTriggered: presentation.nextSlide()
     }
+
+    /* These functions are called when the presentation starts and
+     * ends, respectively. They could be used to start the timer,
+     * but that is done automatically through *activatedInCalamares*,
+     * so there's nothing **to** do.
+     *
+     * Leaving these functions out is fine, although Calamares will
+     * complain that they are missing, then.
+     */
+    function onActivate() { }
+    function onLeave() { }
 
     Slide {
         Image {
-            id: background1
+            id: logo
             source: "logo.svg"
-            width: 280; height: 280
+            width: 280
+            height: 280
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
         Text {
-            anchors.horizontalCenter: test.horizontalCenter
-            anchors.top: test.bottom
-            text: "<h3>Welcome to RadxaOS!</h3><br/>"
+            anchors.horizontalCenter: logo.horizontalCenter
+            anchors.top: logo.bottom
+            text: "<h1>Welcome to RadxaOS!</h1>"
             wrapMode: Text.WordWrap
-            width:650
+            width: presentation.width
             horizontalAlignment: Text.Center
         }
     }
