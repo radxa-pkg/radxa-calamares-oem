@@ -1,3 +1,41 @@
+calamares-settings-radxa (0.2.0) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Update boilerplate and folder structure
+  * fix: update various URL
+  * fix: remove Debian Testing slide
+  * fix: update default user groups
+  * fix: divert default Calamares desktop entry
+  * refactor: move branding to $SHARE
+  * refactor: move scripts to libexec
+  * fix: remove unnecessary clean up
+  * refactor: move modules to $SHARE
+  * refactor: import settings.conf template from upstream
+  * fix: clean up calamares settings.conf
+  * fix: lintian executable-not-elf-or-script
+  * fix: update desktop entry's icon path
+  * fix: log stderr as well
+  * fix: delete old log first
+  * fix: pkexec is not ready at very early stage
+  * fix: import branding.desc from upstream
+  * fix: use breeze theme
+  * fix: update logos
+  * fix: loosen setup requirement
+  * feat: enable network-based location detection
+  * fix: sync with upstream configs
+  * fix: do not reboot after setup is completed
+  * fix: do not clean up in calamares
+  * fix: incorrect file name
+  * fix: typo
+  * fix: update slide
+  * feat: clean up first boot config with successful setup
+  * chore: sync Makefile with rsetup
+
+  [ dependabot[bot] ]
+  * Bump softprops/action-gh-release from 1 to 2
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 23 Aug 2024 16:08:17 +0800
+
 calamares-settings-radxa (0.1.1) unstable; urgency=medium
 
   [ RadxaPanda ]
