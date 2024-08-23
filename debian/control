@@ -13,8 +13,8 @@ Section: admin
 Priority: standard
 Depends: breeze,
          calamares,
+         jq,
          qml-module-qtquick-controls,
-         python3,
          sudo,
          ${misc:Depends},
 Description: Calamares Configuration the Radxa system
