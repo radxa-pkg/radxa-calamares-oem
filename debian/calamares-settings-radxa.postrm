@@ -10,7 +10,6 @@ case $1 in
         do
             dpkg-divert --package calamares-settings-radxa --rename --remove "$i"
         done
-        rm -f /etc/calamares/settings.conf
         ;;
 esac
 

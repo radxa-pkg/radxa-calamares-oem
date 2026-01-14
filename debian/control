@@ -1,5 +1,5 @@
 Source: calamares-settings-radxa
-Maintainer: "Panda" <panda@radxa.com>
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
 Section: admin
 Priority: standard
 Standards-Version: 4.6.0
@@ -14,7 +14,7 @@ Priority: standard
 Depends: breeze,
          calamares,
          jq,
-         qml-module-qtquick-controls,
+         qml6-module-qtquick-controls | qml-module-qtquick-controls,
          sudo,
          ${misc:Depends},
 Description: Calamares Configuration the Radxa system
