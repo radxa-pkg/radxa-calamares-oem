@@ -1,3 +1,14 @@
+calamares-settings-radxa (0.3.0) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: remove old GitHub metafiles
+  * chore: sync .gitignore
+  * fix: incorrect color key names in Plasma6
+  * chore: support Plasma 6
+  * chore: limit to distros with Plasma 6
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 14 Jan 2026 10:19:38 +0000
+
 calamares-settings-radxa (0.2.0) stable; urgency=medium
 
   [ ZHANG Yuntian ]
