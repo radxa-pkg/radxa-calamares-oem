@@ -2,7 +2,7 @@
 
 sudo rm -f /var/log/calamares.log
 if sudo calamares -style breeze -d 2>&1 | sudo tee /var/log/calamares.log; then
-    sudo bash -c 'export SESSIONS=($(loginctl list-sessions -o json | jq -re '.[].session')); \
+	sudo bash -c 'export SESSIONS=($(loginctl list-sessions -o json --json=short | jq -re '.[].session')); \
     apt-get autoremove -y radxa-oobe; \
     loginctl terminate-session "${SESSIONS[@]}"'
 fi
