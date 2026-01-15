@@ -13,7 +13,6 @@ Section: admin
 Priority: standard
 Depends: breeze,
          calamares,
-         jq,
          qml6-module-qtquick-controls | qml-module-qtquick-controls,
          sudo,
          ${misc:Depends},
